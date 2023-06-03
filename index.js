@@ -3,7 +3,7 @@ var gamePattern = [];
 var userClickedPattern = [];
 var level = 0;
 var flag = 1;
-
+//to keep track of pattern
 $(document).keypress(function(){
     if(flag == 1)
     {
